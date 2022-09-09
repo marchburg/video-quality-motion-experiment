@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2E3F6D28C8E98900BF6AC2 /* video_quality_motion_experimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F6C28C8E98900BF6AC2 /* video_quality_motion_experimentApp.swift */; };
+		5B2E3F7128C8E98B00BF6AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E3F7028C8E98B00BF6AC2 /* Assets.xcassets */; };
+		5B2E3F7428C8E98B00BF6AC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E3F7328C8E98B00BF6AC2 /* Preview Assets.xcassets */; };
+		5B2E3F7628C8E98B00BF6AC2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F7528C8E98B00BF6AC2 /* Persistence.swift */; };
+		5B2E3F7928C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F7728C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodeld */; };
+		5B2E3F8328C8E98B00BF6AC2 /* video_quality_motion_experimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F8228C8E98B00BF6AC2 /* video_quality_motion_experimentTests.swift */; };
+		5B2E3F8D28C8E98B00BF6AC2 /* video_quality_motion_experimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F8C28C8E98B00BF6AC2 /* video_quality_motion_experimentUITests.swift */; };
+		5B2E3F8F28C8E98B00BF6AC2 /* video_quality_motion_experimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F8E28C8E98B00BF6AC2 /* video_quality_motion_experimentUITestsLaunchTests.swift */; };
+		5B2E3FAD28C8EA7E00BF6AC2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F9C28C8EA7D00BF6AC2 /* MainView.swift */; };
+		5B2E3FAF28C8EA7E00BF6AC2 /* EnterParticipantId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F9E28C8EA7D00BF6AC2 /* EnterParticipantId.swift */; };
+		5B2E3FB028C8EA7E00BF6AC2 /* Finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3F9F28C8EA7D00BF6AC2 /* Finish.swift */; };
+		5B2E3FB128C8EA7E00BF6AC2 /* QuestionVideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA028C8EA7D00BF6AC2 /* QuestionVideoContent.swift */; };
+		5B2E3FB228C8EA7E00BF6AC2 /* QuestionnaireAdditional_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA128C8EA7D00BF6AC2 /* QuestionnaireAdditional_2.swift */; };
+		5B2E3FB328C8EA7E00BF6AC2 /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA228C8EA7D00BF6AC2 /* Export.swift */; };
+		5B2E3FB428C8EA7E00BF6AC2 /* AreYouReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA328C8EA7D00BF6AC2 /* AreYouReadyView.swift */; };
+		5B2E3FB528C8EA7E00BF6AC2 /* QuestionnaireAdditional_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA428C8EA7D00BF6AC2 /* QuestionnaireAdditional_1.swift */; };
+		5B2E3FB628C8EA7E00BF6AC2 /* AffectGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA528C8EA7D00BF6AC2 /* AffectGrid.swift */; };
+		5B2E3FBA28C8EA7E00BF6AC2 /* QuestionnaireEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FA928C8EA7D00BF6AC2 /* QuestionnaireEmotion.swift */; };
+		5B2E3FBB28C8EA7E00BF6AC2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FAA28C8EA7E00BF6AC2 /* Grid.swift */; };
+		5B2E3FBC28C8EA7E00BF6AC2 /* QuestionnaireQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FAB28C8EA7E00BF6AC2 /* QuestionnaireQuality.swift */; };
+		5B2E3FBD28C8EA7E00BF6AC2 /* StimulusPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FAC28C8EA7E00BF6AC2 /* StimulusPresentation.swift */; };
+		5B2E3FC328C8EB2900BF6AC2 /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E3FC228C8EB2900BF6AC2 /* testVideo.mp4 */; };
+		5B2E3FCC28C8EB4900BF6AC2 /* DataSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FC528C8EB4800BF6AC2 /* DataSample.swift */; };
+		5B2E3FCD28C8EB4900BF6AC2 /* ParticipantSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FC628C8EB4800BF6AC2 /* ParticipantSpecification.swift */; };
+		5B2E3FCE28C8EB4900BF6AC2 /* TouchSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FC728C8EB4800BF6AC2 /* TouchSample.swift */; };
+		5B2E3FCF28C8EB4900BF6AC2 /* QuestionnaireSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FC828C8EB4800BF6AC2 /* QuestionnaireSample.swift */; };
+		5B2E3FD028C8EB4900BF6AC2 /* VideoSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FC928C8EB4800BF6AC2 /* VideoSample.swift */; };
+		5B2E3FD128C8EB4900BF6AC2 /* ParticipantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FCA28C8EB4800BF6AC2 /* ParticipantData.swift */; };
+		5B2E3FD228C8EB4900BF6AC2 /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FCB28C8EB4800BF6AC2 /* MotionSample.swift */; };
+		5B2E3FD628C8EB6100BF6AC2 /* csvHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FD428C8EB6100BF6AC2 /* csvHelper.swift */; };
+		5B2E3FD728C8EB6100BF6AC2 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FD528C8EB6100BF6AC2 /* DateFormatter.swift */; };
+		5B2E3FDA28C8EB7B00BF6AC2 /* participant_orders_semikolon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E3FD928C8EB7B00BF6AC2 /* participant_orders_semikolon.csv */; };
+		5B2E3FE028C8EBA000BF6AC2 /* AVPlayerControllerRepresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FDC28C8EBA000BF6AC2 /* AVPlayerControllerRepresented.swift */; };
+		5B2E3FE128C8EBA000BF6AC2 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FDD28C8EBA000BF6AC2 /* VideoController.swift */; };
+		5B2E3FE228C8EBA000BF6AC2 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FDE28C8EBA000BF6AC2 /* ActivityViewController.swift */; };
+		5B2E3FE528C8ECAF00BF6AC2 /* ButtonTextFullWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E3FE428C8ECAF00BF6AC2 /* ButtonTextFullWidth.swift */; };
+		5B2E412C28CA221500BF6AC2 /* Skala_mit_Overflow_DE.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E412B28CA221500BF6AC2 /* Skala_mit_Overflow_DE.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B2E3F7F28C8E98B00BF6AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E3F6128C8E98900BF6AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E3F6828C8E98900BF6AC2;
+			remoteInfo = "video-quality-motion-experiment";
+		};
+		5B2E3F8928C8E98B00BF6AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E3F6128C8E98900BF6AC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E3F6828C8E98900BF6AC2;
+			remoteInfo = "video-quality-motion-experiment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B2E3F6928C8E98900BF6AC2 /* video-quality-motion-experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "video-quality-motion-experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E3F6C28C8E98900BF6AC2 /* video_quality_motion_experimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_quality_motion_experimentApp.swift; sourceTree = "<group>"; };
+		5B2E3F7028C8E98B00BF6AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B2E3F7328C8E98B00BF6AC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B2E3F7528C8E98B00BF6AC2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5B2E3F7828C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = video_quality_motion_experiment.xcdatamodel; sourceTree = "<group>"; };
+		5B2E3F7E28C8E98B00BF6AC2 /* video-quality-motion-experimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "video-quality-motion-experimentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E3F8228C8E98B00BF6AC2 /* video_quality_motion_experimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_quality_motion_experimentTests.swift; sourceTree = "<group>"; };
+		5B2E3F8828C8E98B00BF6AC2 /* video-quality-motion-experimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "video-quality-motion-experimentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E3F8C28C8E98B00BF6AC2 /* video_quality_motion_experimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_quality_motion_experimentUITests.swift; sourceTree = "<group>"; };
+		5B2E3F8E28C8E98B00BF6AC2 /* video_quality_motion_experimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_quality_motion_experimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B2E3F9C28C8EA7D00BF6AC2 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5B2E3F9E28C8EA7D00BF6AC2 /* EnterParticipantId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterParticipantId.swift; sourceTree = "<group>"; };
+		5B2E3F9F28C8EA7D00BF6AC2 /* Finish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finish.swift; sourceTree = "<group>"; };
+		5B2E3FA028C8EA7D00BF6AC2 /* QuestionVideoContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionVideoContent.swift; sourceTree = "<group>"; };
+		5B2E3FA128C8EA7D00BF6AC2 /* QuestionnaireAdditional_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireAdditional_2.swift; sourceTree = "<group>"; };
+		5B2E3FA228C8EA7D00BF6AC2 /* Export.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
+		5B2E3FA328C8EA7D00BF6AC2 /* AreYouReadyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreYouReadyView.swift; sourceTree = "<group>"; };
+		5B2E3FA428C8EA7D00BF6AC2 /* QuestionnaireAdditional_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireAdditional_1.swift; sourceTree = "<group>"; };
+		5B2E3FA528C8EA7D00BF6AC2 /* AffectGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffectGrid.swift; sourceTree = "<group>"; };
+		5B2E3FA928C8EA7D00BF6AC2 /* QuestionnaireEmotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireEmotion.swift; sourceTree = "<group>"; };
+		5B2E3FAA28C8EA7E00BF6AC2 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		5B2E3FAB28C8EA7E00BF6AC2 /* QuestionnaireQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireQuality.swift; sourceTree = "<group>"; };
+		5B2E3FAC28C8EA7E00BF6AC2 /* StimulusPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StimulusPresentation.swift; sourceTree = "<group>"; };
+		5B2E3FC228C8EB2900BF6AC2 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+		5B2E3FC528C8EB4800BF6AC2 /* DataSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSample.swift; sourceTree = "<group>"; };
+		5B2E3FC628C8EB4800BF6AC2 /* ParticipantSpecification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantSpecification.swift; sourceTree = "<group>"; };
+		5B2E3FC728C8EB4800BF6AC2 /* TouchSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchSample.swift; sourceTree = "<group>"; };
+		5B2E3FC828C8EB4800BF6AC2 /* QuestionnaireSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireSample.swift; sourceTree = "<group>"; };
+		5B2E3FC928C8EB4800BF6AC2 /* VideoSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSample.swift; sourceTree = "<group>"; };
+		5B2E3FCA28C8EB4800BF6AC2 /* ParticipantData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantData.swift; sourceTree = "<group>"; };
+		5B2E3FCB28C8EB4800BF6AC2 /* MotionSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionSample.swift; sourceTree = "<group>"; };
+		5B2E3FD428C8EB6100BF6AC2 /* csvHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csvHelper.swift; sourceTree = "<group>"; };
+		5B2E3FD528C8EB6100BF6AC2 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		5B2E3FD928C8EB7B00BF6AC2 /* participant_orders_semikolon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = participant_orders_semikolon.csv; sourceTree = "<group>"; };
+		5B2E3FDC28C8EBA000BF6AC2 /* AVPlayerControllerRepresented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerControllerRepresented.swift; sourceTree = "<group>"; };
+		5B2E3FDD28C8EBA000BF6AC2 /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		5B2E3FDE28C8EBA000BF6AC2 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		5B2E3FE428C8ECAF00BF6AC2 /* ButtonTextFullWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTextFullWidth.swift; sourceTree = "<group>"; };
+		5B2E412B28CA221500BF6AC2 /* Skala_mit_Overflow_DE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skala_mit_Overflow_DE.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2E3F6628C8E98900BF6AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E3F7B28C8E98B00BF6AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E3F8528C8E98B00BF6AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2E3F6028C8E98900BF6AC2 = {
+			isa = PBXGroup;
+			children = (
+				5B2E412A28CA220B00BF6AC2 /* img */,
+				5B2E3FDB28C8EB8E00BF6AC2 /* controllers */,
+				5B2E3FD828C8EB6E00BF6AC2 /* data */,
+				5B2E3FD328C8EB5300BF6AC2 /* helpers */,
+				5B2E3FC428C8EB3B00BF6AC2 /* models */,
+				5B2E3FC128C8EAD700BF6AC2 /* videos */,
+				5B2E3F9B28C8EA5200BF6AC2 /* views */,
+				5B2E3F6B28C8E98900BF6AC2 /* video-quality-motion-experiment */,
+				5B2E3F8128C8E98B00BF6AC2 /* video-quality-motion-experimentTests */,
+				5B2E3F8B28C8E98B00BF6AC2 /* video-quality-motion-experimentUITests */,
+				5B2E3F6A28C8E98900BF6AC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2E3F6A28C8E98900BF6AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3F6928C8E98900BF6AC2 /* video-quality-motion-experiment.app */,
+				5B2E3F7E28C8E98B00BF6AC2 /* video-quality-motion-experimentTests.xctest */,
+				5B2E3F8828C8E98B00BF6AC2 /* video-quality-motion-experimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2E3F6B28C8E98900BF6AC2 /* video-quality-motion-experiment */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3F6C28C8E98900BF6AC2 /* video_quality_motion_experimentApp.swift */,
+				5B2E3F7028C8E98B00BF6AC2 /* Assets.xcassets */,
+				5B2E3F7528C8E98B00BF6AC2 /* Persistence.swift */,
+				5B2E3F7728C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodeld */,
+				5B2E3F7228C8E98B00BF6AC2 /* Preview Content */,
+			);
+			path = "video-quality-motion-experiment";
+			sourceTree = "<group>";
+		};
+		5B2E3F7228C8E98B00BF6AC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3F7328C8E98B00BF6AC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B2E3F8128C8E98B00BF6AC2 /* video-quality-motion-experimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3F8228C8E98B00BF6AC2 /* video_quality_motion_experimentTests.swift */,
+			);
+			path = "video-quality-motion-experimentTests";
+			sourceTree = "<group>";
+		};
+		5B2E3F8B28C8E98B00BF6AC2 /* video-quality-motion-experimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3F8C28C8E98B00BF6AC2 /* video_quality_motion_experimentUITests.swift */,
+				5B2E3F8E28C8E98B00BF6AC2 /* video_quality_motion_experimentUITestsLaunchTests.swift */,
+			);
+			path = "video-quality-motion-experimentUITests";
+			sourceTree = "<group>";
+		};
+		5B2E3F9B28C8EA5200BF6AC2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3FE428C8ECAF00BF6AC2 /* ButtonTextFullWidth.swift */,
+				5B2E3FA528C8EA7D00BF6AC2 /* AffectGrid.swift */,
+				5B2E3FA328C8EA7D00BF6AC2 /* AreYouReadyView.swift */,
+				5B2E3F9E28C8EA7D00BF6AC2 /* EnterParticipantId.swift */,
+				5B2E3FA228C8EA7D00BF6AC2 /* Export.swift */,
+				5B2E3F9F28C8EA7D00BF6AC2 /* Finish.swift */,
+				5B2E3FAA28C8EA7E00BF6AC2 /* Grid.swift */,
+				5B2E3F9C28C8EA7D00BF6AC2 /* MainView.swift */,
+				5B2E3FA428C8EA7D00BF6AC2 /* QuestionnaireAdditional_1.swift */,
+				5B2E3FA128C8EA7D00BF6AC2 /* QuestionnaireAdditional_2.swift */,
+				5B2E3FA928C8EA7D00BF6AC2 /* QuestionnaireEmotion.swift */,
+				5B2E3FAB28C8EA7E00BF6AC2 /* QuestionnaireQuality.swift */,
+				5B2E3FA028C8EA7D00BF6AC2 /* QuestionVideoContent.swift */,
+				5B2E3FAC28C8EA7E00BF6AC2 /* StimulusPresentation.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5B2E3FC128C8EAD700BF6AC2 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3FC228C8EB2900BF6AC2 /* testVideo.mp4 */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+		5B2E3FC428C8EB3B00BF6AC2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3FC528C8EB4800BF6AC2 /* DataSample.swift */,
+				5B2E3FCB28C8EB4800BF6AC2 /* MotionSample.swift */,
+				5B2E3FCA28C8EB4800BF6AC2 /* ParticipantData.swift */,
+				5B2E3FC628C8EB4800BF6AC2 /* ParticipantSpecification.swift */,
+				5B2E3FC828C8EB4800BF6AC2 /* QuestionnaireSample.swift */,
+				5B2E3FC728C8EB4800BF6AC2 /* TouchSample.swift */,
+				5B2E3FC928C8EB4800BF6AC2 /* VideoSample.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5B2E3FD328C8EB5300BF6AC2 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3FD428C8EB6100BF6AC2 /* csvHelper.swift */,
+				5B2E3FD528C8EB6100BF6AC2 /* DateFormatter.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		5B2E3FD828C8EB6E00BF6AC2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3FD928C8EB7B00BF6AC2 /* participant_orders_semikolon.csv */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		5B2E3FDB28C8EB8E00BF6AC2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E3FDE28C8EBA000BF6AC2 /* ActivityViewController.swift */,
+				5B2E3FDC28C8EBA000BF6AC2 /* AVPlayerControllerRepresented.swift */,
+				5B2E3FDD28C8EBA000BF6AC2 /* VideoController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5B2E412A28CA220B00BF6AC2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E412B28CA221500BF6AC2 /* Skala_mit_Overflow_DE.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2E3F6828C8E98900BF6AC2 /* video-quality-motion-experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E3F9228C8E98B00BF6AC2 /* Build configuration list for PBXNativeTarget "video-quality-motion-experiment" */;
+			buildPhases = (
+				5B2E3F6528C8E98900BF6AC2 /* Sources */,
+				5B2E3F6628C8E98900BF6AC2 /* Frameworks */,
+				5B2E3F6728C8E98900BF6AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "video-quality-motion-experiment";
+			productName = "video-quality-motion-experiment";
+			productReference = 5B2E3F6928C8E98900BF6AC2 /* video-quality-motion-experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B2E3F7D28C8E98B00BF6AC2 /* video-quality-motion-experimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E3F9528C8E98B00BF6AC2 /* Build configuration list for PBXNativeTarget "video-quality-motion-experimentTests" */;
+			buildPhases = (
+				5B2E3F7A28C8E98B00BF6AC2 /* Sources */,
+				5B2E3F7B28C8E98B00BF6AC2 /* Frameworks */,
+				5B2E3F7C28C8E98B00BF6AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2E3F8028C8E98B00BF6AC2 /* PBXTargetDependency */,
+			);
+			name = "video-quality-motion-experimentTests";
+			productName = "video-quality-motion-experimentTests";
+			productReference = 5B2E3F7E28C8E98B00BF6AC2 /* video-quality-motion-experimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B2E3F8728C8E98B00BF6AC2 /* video-quality-motion-experimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E3F9828C8E98B00BF6AC2 /* Build configuration list for PBXNativeTarget "video-quality-motion-experimentUITests" */;
+			buildPhases = (
+				5B2E3F8428C8E98B00BF6AC2 /* Sources */,
+				5B2E3F8528C8E98B00BF6AC2 /* Frameworks */,
+				5B2E3F8628C8E98B00BF6AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2E3F8A28C8E98B00BF6AC2 /* PBXTargetDependency */,
+			);
+			name = "video-quality-motion-experimentUITests";
+			productName = "video-quality-motion-experimentUITests";
+			productReference = 5B2E3F8828C8E98B00BF6AC2 /* video-quality-motion-experimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2E3F6128C8E98900BF6AC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5B2E3F6828C8E98900BF6AC2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5B2E3F7D28C8E98B00BF6AC2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5B2E3F6828C8E98900BF6AC2;
+					};
+					5B2E3F8728C8E98B00BF6AC2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5B2E3F6828C8E98900BF6AC2;
+					};
+				};
+			};
+			buildConfigurationList = 5B2E3F6428C8E98900BF6AC2 /* Build configuration list for PBXProject "video-quality-motion-experiment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2E3F6028C8E98900BF6AC2;
+			productRefGroup = 5B2E3F6A28C8E98900BF6AC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2E3F6828C8E98900BF6AC2 /* video-quality-motion-experiment */,
+				5B2E3F7D28C8E98B00BF6AC2 /* video-quality-motion-experimentTests */,
+				5B2E3F8728C8E98B00BF6AC2 /* video-quality-motion-experimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2E3F6728C8E98900BF6AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E3F7428C8E98B00BF6AC2 /* Preview Assets.xcassets in Resources */,
+				5B2E3F7128C8E98B00BF6AC2 /* Assets.xcassets in Resources */,
+				5B2E3FDA28C8EB7B00BF6AC2 /* participant_orders_semikolon.csv in Resources */,
+				5B2E412C28CA221500BF6AC2 /* Skala_mit_Overflow_DE.png in Resources */,
+				5B2E3FC328C8EB2900BF6AC2 /* testVideo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E3F7C28C8E98B00BF6AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E3F8628C8E98B00BF6AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2E3F6528C8E98900BF6AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E3FBB28C8EA7E00BF6AC2 /* Grid.swift in Sources */,
+				5B2E3FCD28C8EB4900BF6AC2 /* ParticipantSpecification.swift in Sources */,
+				5B2E3FB128C8EA7E00BF6AC2 /* QuestionVideoContent.swift in Sources */,
+				5B2E3FE128C8EBA000BF6AC2 /* VideoController.swift in Sources */,
+				5B2E3FB028C8EA7E00BF6AC2 /* Finish.swift in Sources */,
+				5B2E3FCC28C8EB4900BF6AC2 /* DataSample.swift in Sources */,
+				5B2E3F7928C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodeld in Sources */,
+				5B2E3FB328C8EA7E00BF6AC2 /* Export.swift in Sources */,
+				5B2E3FCF28C8EB4900BF6AC2 /* QuestionnaireSample.swift in Sources */,
+				5B2E3FBA28C8EA7E00BF6AC2 /* QuestionnaireEmotion.swift in Sources */,
+				5B2E3FB628C8EA7E00BF6AC2 /* AffectGrid.swift in Sources */,
+				5B2E3FB228C8EA7E00BF6AC2 /* QuestionnaireAdditional_2.swift in Sources */,
+				5B2E3FD628C8EB6100BF6AC2 /* csvHelper.swift in Sources */,
+				5B2E3F7628C8E98B00BF6AC2 /* Persistence.swift in Sources */,
+				5B2E3FBD28C8EA7E00BF6AC2 /* StimulusPresentation.swift in Sources */,
+				5B2E3FBC28C8EA7E00BF6AC2 /* QuestionnaireQuality.swift in Sources */,
+				5B2E3FE228C8EBA000BF6AC2 /* ActivityViewController.swift in Sources */,
+				5B2E3FD028C8EB4900BF6AC2 /* VideoSample.swift in Sources */,
+				5B2E3FD728C8EB6100BF6AC2 /* DateFormatter.swift in Sources */,
+				5B2E3FAF28C8EA7E00BF6AC2 /* EnterParticipantId.swift in Sources */,
+				5B2E3FB428C8EA7E00BF6AC2 /* AreYouReadyView.swift in Sources */,
+				5B2E3FAD28C8EA7E00BF6AC2 /* MainView.swift in Sources */,
+				5B2E3F6D28C8E98900BF6AC2 /* video_quality_motion_experimentApp.swift in Sources */,
+				5B2E3FD228C8EB4900BF6AC2 /* MotionSample.swift in Sources */,
+				5B2E3FD128C8EB4900BF6AC2 /* ParticipantData.swift in Sources */,
+				5B2E3FCE28C8EB4900BF6AC2 /* TouchSample.swift in Sources */,
+				5B2E3FB528C8EA7E00BF6AC2 /* QuestionnaireAdditional_1.swift in Sources */,
+				5B2E3FE528C8ECAF00BF6AC2 /* ButtonTextFullWidth.swift in Sources */,
+				5B2E3FE028C8EBA000BF6AC2 /* AVPlayerControllerRepresented.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E3F7A28C8E98B00BF6AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E3F8328C8E98B00BF6AC2 /* video_quality_motion_experimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E3F8428C8E98B00BF6AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E3F8D28C8E98B00BF6AC2 /* video_quality_motion_experimentUITests.swift in Sources */,
+				5B2E3F8F28C8E98B00BF6AC2 /* video_quality_motion_experimentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2E3F8028C8E98B00BF6AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E3F6828C8E98900BF6AC2 /* video-quality-motion-experiment */;
+			targetProxy = 5B2E3F7F28C8E98B00BF6AC2 /* PBXContainerItemProxy */;
+		};
+		5B2E3F8A28C8E98B00BF6AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E3F6828C8E98900BF6AC2 /* video-quality-motion-experiment */;
+			targetProxy = 5B2E3F8928C8E98B00BF6AC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B2E3F9028C8E98B00BF6AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B2E3F9128C8E98B00BF6AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2E3F9328C8E98B00BF6AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"video-quality-motion-experiment/Preview Content\"";
+				DEVELOPMENT_TEAM = QFGY77R43B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinburghart.video-quality-motion-experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B2E3F9428C8E98B00BF6AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"video-quality-motion-experiment/Preview Content\"";
+				DEVELOPMENT_TEAM = QFGY77R43B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinburghart.video-quality-motion-experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B2E3F9628C8E98B00BF6AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFGY77R43B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinburghart.video-quality-motion-experimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/video-quality-motion-experiment.app/video-quality-motion-experiment";
+			};
+			name = Debug;
+		};
+		5B2E3F9728C8E98B00BF6AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFGY77R43B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinburghart.video-quality-motion-experimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/video-quality-motion-experiment.app/video-quality-motion-experiment";
+			};
+			name = Release;
+		};
+		5B2E3F9928C8E98B00BF6AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFGY77R43B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinburghart.video-quality-motion-experimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "video-quality-motion-experiment";
+			};
+			name = Debug;
+		};
+		5B2E3F9A28C8E98B00BF6AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFGY77R43B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martinburghart.video-quality-motion-experimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "video-quality-motion-experiment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2E3F6428C8E98900BF6AC2 /* Build configuration list for PBXProject "video-quality-motion-experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E3F9028C8E98B00BF6AC2 /* Debug */,
+				5B2E3F9128C8E98B00BF6AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E3F9228C8E98B00BF6AC2 /* Build configuration list for PBXNativeTarget "video-quality-motion-experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E3F9328C8E98B00BF6AC2 /* Debug */,
+				5B2E3F9428C8E98B00BF6AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E3F9528C8E98B00BF6AC2 /* Build configuration list for PBXNativeTarget "video-quality-motion-experimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E3F9628C8E98B00BF6AC2 /* Debug */,
+				5B2E3F9728C8E98B00BF6AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E3F9828C8E98B00BF6AC2 /* Build configuration list for PBXNativeTarget "video-quality-motion-experimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E3F9928C8E98B00BF6AC2 /* Debug */,
+				5B2E3F9A28C8E98B00BF6AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B2E3F7728C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B2E3F7828C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodel */,
+			);
+			currentVersion = 5B2E3F7828C8E98B00BF6AC2 /* video_quality_motion_experiment.xcdatamodel */;
+			path = video_quality_motion_experiment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B2E3F6128C8E98900BF6AC2 /* Project object */;
+}
